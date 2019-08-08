@@ -1,0 +1,46 @@
+all changelogs i could find and related firmware uodate below. 
+
+1.0.68-r1
+The Store is now open!
+New wifi setup screen.
+Updates to support the newest ODK.
+Various bug fixes and performance improvements.
+
+1.0.108-r1 
+Added extra security for purchases.
+Updated game details screen to be more complete.
+Disabled the store to prepare for final game submissions.
+
+1.0.138-r1
+Changed device name and USB vendor/product ids.
+Updater improvements.
+General flow improvements.
+
+1.0.158-r1 
+n/a
+
+1.0.193-r1
+-Users can now edit credit card info on the console under Manage > Account > Credit Card
+-Manage menu reorganization
+-Fix for Parse Errors that would occur on downloading some apps.  For users that are experiencing this issue currently, go to Play, then press the U button to bring up the details page for the affected game.  Selecting "Play" will allow you to redownload the game.
+
+Known issues:
+-Image loading in discover can be slow, especially when jumping rapidly between categories.  We are aware and working on fixing this issue.
+
+1.0.248-r1
+Improvements to all screens during initial out-of-box experience
+MAKE category is no longer super aggro with its pop-up
+Improvements to game downloads if internet connection is lost mid-download
+Performance improvements with controllers
+Fixed null reference exception that could occur when main menu appears
+Fixed an issue where the displayed expiration date for cards could be off by 1 month
+Fixed an issue where ethernet connection was sometimes not recognized if the cable was inserted after boot up
+Going to console updates with no internet connection no longer puts users into a loop
+Cleanup on button legends to be more accurate
+Minor layout tweaks to soft keyboard
+
+1.0.264-r1 
+Adjusted settings to address console heat issues that some users were encountering
+
+1.0.298-r1 
+n/a

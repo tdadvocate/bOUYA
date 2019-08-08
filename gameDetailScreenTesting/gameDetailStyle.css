@@ -1,0 +1,108 @@
+body {
+  background-color: #FF2A00; /* For browsers that don't support gradients */
+  background-image: linear-gradient(to right, black 55%, #FF2A00);
+  /*Current state of blur effects entire web page including the text within the body. Not sure of a resolution for this issue yet. 
+  filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+.gameInfo {
+  color: white;
+  /*Believe that this font should be Effra but need to dig more first. will also need custom fonts if so. */
+  font-family: Futura;
+  font-weight: bold;
+}
+
+.gameDescription {
+  color: #808080;
+  /*Believe that this font should be Effra but need to dig more first. will also need custom fonts if so. */
+  font-family: Futura;
+  font-weight: bold;
+}
+
+.gameButton {
+  /* display: inline; */
+  background-color: #FF2A00;
+  padding: 10px 15px 10px 15px;
+  text-align: center;
+  /* This is temporary while I attempt to fix the autosizing for the buttons */
+  width: 20%;
+}
+
+.gameButtonPOC {
+
+}
+
+/* Here because its needed from the original style. Will resolve this issue with backgrounds in the future after the main layout is fixed. */
+.ouyaLabel {
+  color: white;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ouyaBrand {
+  color: white;
+  font-family: Arial;
+}
+
+.ouyaLink {
+  color: white;
+  text-decoration: none;
+}
+
+.ouyaLabel .pocLightLabel {
+  opacity: 0.4;
+}
+
+/* Took this code from babylon hookah to try and reuse for the download buttons */
+#topmenu {
+  display:block;
+  list-style:none;
+  padding:0 0px 0px 278px;
+  float: right;
+  width: 415px;
+}
+#topmenu li {
+  display:inline;
+}
+#topmenu a {
+  display:block;
+  float:left;
+  height:28px;
+  margin:0px 0px 0px0px;
+  text-decoration:none;
+  padding:9px 15px 0px 15px;
+  text-align:center;
+}
+#topmenu a, #topmenu a:visited, #topmenu a:active {
+  color:#FFFFFF;
+}
+#topmenu a:hover{
+  color:#ffffff;
+  background-color: #D3D3D3;
+}
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
+  color:#FFFFFF;
+  background-color: #A9A9A9;
+}
+
+/* Testing stuff */
+.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory; 
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}
+.slides > div {
+  /* CURRENT way. */
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+}

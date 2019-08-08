@@ -1,0 +1,29 @@
+body {
+  background-color: #FF2A00; /* For browsers that don't support gradients */
+  background-image: linear-gradient(to right, #FF2A00 65%, black); /* Background for browsers that support gradients */
+}
+
+/* Mimicing the Label style of the OUYA */
+.ouyaLabel {
+  color: white;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Mimicing the style of the OUYA logo for the Header of the site */
+.ouyaBrand {
+  color: white;
+  font-family: Arial;
+}
+
+/* Mimicing the selected Menu Options of the OUYA for the page links. Temporarily hardcoded the colour until the Hover code is written */
+.ouyaLink {
+  color: white;
+  text-decoration: none;
+}
+
+/* Mimicing the non-selected Menu Options of the OUYA for the page links. Temporarily hardcoded the colour until the Hover code is written */
+.ouyaLabel .pocLightLabel {
+  opacity: 0.4;
+}
