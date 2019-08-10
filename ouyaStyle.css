@@ -32,9 +32,13 @@ body {
 .ouyaLabelLink {
   opacity: 0.4;
   text-decoration: none;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .ouyaLabelLink a:hover { 
   opacity: 1.0;
   color: white;
+  text-decoration: none;
 }
