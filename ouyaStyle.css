@@ -18,16 +18,23 @@ body {
 }
 
 /* Mimicing the selected Menu Options of the OUYA for the page links. Temporarily hardcoded the colour until the Hover code is written */
-.ouyaLink {
+/* .ouyaLink {
   color: white;
   text-decoration: none;
 }
-
+*/
 /* Mimicing the non-selected Menu Options of the OUYA for the page links. Temporarily hardcoded the colour until the Hover code is written */
-.ouyaLabel .pocLightLabel {
+/*.ouyaLabel .pocLightLabel {
   opacity: 0.4;
 }
+*/
 
 .ouyaLabelLink {
+  opacity: 0.4;
+  text-decoration: none;
+}
 
+.ouyaLabelLink a:hover { 
+  opacity: 1.0;
+  color: white;
 }
