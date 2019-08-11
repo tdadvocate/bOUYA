@@ -93,9 +93,21 @@ body {
   height: 300px;
   display: flex;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+
 }
-.slide {
+.slides {
   width: 300px;
   flex-shrink: 0;
   height: 100%;
+  scroll-behavior: smooth;
+}
+@supports (scroll-snap-type) {
+  .slider > a {
+    display: none;
+  }
+}
+.slides > div:target {
+  transform: scale(0.8);
 }
