@@ -37,7 +37,7 @@ body {
   font-weight: bold;
 }
 
-.ouyaLabelLink a:hover { 
+.ouyaLabelLink :hover { 
   opacity: 1.0;
   color: white;
   text-decoration: none;
