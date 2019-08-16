@@ -30,7 +30,8 @@ body {
 
 /* Testing for the home page links to better mimic the text formatting on the Ouya including hovering */
 .ouyaLabelLink {
-  opacity: 0.4;
+  /* opacity: 0.4; */
+  background-color: rgba(1 1 1 0.4);
   text-decoration: none;
   font-family: Futura;
   text-transform: uppercase;
@@ -38,7 +39,7 @@ body {
 }
 
 .ouyaLabelLink :hover { 
-  opacity: 1.0;
-  color: white;
+  background-color: rgba(1 1 1 1);
+  /* color: white; */
   text-decoration: none;
 }
