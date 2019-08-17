@@ -31,11 +31,11 @@ body {
 /* Testing for the home page links to better mimic the text formatting on the Ouya including hovering */
 .ouyaLabelLink {
   /* opacity: 0.4; */
+  text-decoration: none;
   background-color: rgba(1 1 1 0.4);
   font-family: Futura;
   text-transform: uppercase;
   font-weight: bold;
-  text-decoration: none;
 }
 
 .ouyaLabelLink :hover { 
