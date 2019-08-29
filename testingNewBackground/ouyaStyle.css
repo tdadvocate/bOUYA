@@ -1,6 +1,5 @@
 body {
-  background-color: #FF2A00; /* For browsers that don't support gradients */
-  background-image: linear-gradient(to right, #FF2A00 65%, black); /* Background for browsers that support gradients */
+  background-color: #FF2A00; /* Background colour in case image doesn't load */
 }
 
 /* Mimicing the Label style of the OUYA */
