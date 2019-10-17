@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  padding: 15px;
+}
+
+h1 {
+  color: white;
+  font-family: Futura;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-family: Futura;
+  font-weight: bold;
+}
+
+.textBoxTitle p {
+ font-size: 16;
+ text-transform: uppercase;
+}
