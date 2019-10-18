@@ -16,8 +16,13 @@ p {
 }
 
 .textBoxTitle p {
+ padding-top: 2em;
  font-size: 16;
  text-transform: uppercase;
+}
+
+.textBox {
+
 }
 
 /* Dropdown Button */
