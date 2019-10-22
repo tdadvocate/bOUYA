@@ -44,6 +44,14 @@ p {
   background-color: #2980B9;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: auto;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #3498DB;
