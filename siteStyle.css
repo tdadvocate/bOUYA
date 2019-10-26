@@ -1,6 +1,14 @@
 body {
   background-color: black;
-  padding: 15px;
+  padding: 20px;
+}
+
+.imageCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 h1 {
@@ -101,17 +109,7 @@ p {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-  .imageCenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    max-width: 100%;
-  }
-
-} 
+@media only screen and (max-width: 600px) {...} 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {...} 
@@ -120,15 +118,4 @@ p {
 @media only screen and (min-width: 768px) {...} 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-  .imageCenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    max-width: 100%;
-  }
-
-
-} 
+@media only screen and (min-width: 992px) {...} 
