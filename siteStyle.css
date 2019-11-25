@@ -25,6 +25,13 @@ p {
 
 }
 
+
+ /*Glowing text effect */
+ .glowShadow {
+   text-shadow: 0 0 20px #148F77, 0 0 50px #117864;
+ }
+
+
 /* Read More Button */
 .RMButton {
   background-color: #148F77;
