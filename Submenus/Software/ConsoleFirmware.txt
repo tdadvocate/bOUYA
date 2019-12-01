@@ -20,12 +20,12 @@ General flow improvements.
 n/a
 
 1.0.193-r1
--Users can now edit credit card info on the console under Manage > Account > Credit Card
--Manage menu reorganization
--Fix for Parse Errors that would occur on downloading some apps.  For users that are experiencing this issue currently, go to Play, then press the U button to bring up the details page for the affected game.  Selecting "Play" will allow you to redownload the game.
+Users can now edit credit card info on the console under Manage > Account > Credit Card
+Manage menu reorganization
+Fix for Parse Errors that would occur on downloading some apps.  For users that are experiencing this issue currently, go to Play, then press the U button to bring up the details page for the affected game.  Selecting "Play" will allow you to redownload the game.
 
 Known issues:
--Image loading in discover can be slow, especially when jumping rapidly between categories.  We are aware and working on fixing this issue.
+Image loading in discover can be slow, especially when jumping rapidly between categories.  We are aware and working on fixing this issue.
 
 1.0.248-r1
 Improvements to all screens during initial out-of-box experience
