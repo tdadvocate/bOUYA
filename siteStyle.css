@@ -160,3 +160,12 @@ a:active {
 @media only screen and (min-width: 1200px) {
 
 }
+
+/* Table Styling */
+table, td {
+  font: futura;
+}
+
+td:nth-child(odd) {
+  font-weight: bold;
+}
