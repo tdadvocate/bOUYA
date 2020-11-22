@@ -163,9 +163,10 @@ a:active {
 
 /* Table Styling */
 table, td {
-  font: futura;
+  font-family: futura;
 }
 
 td:nth-child(odd) {
   font-weight: bold;
+  text-transform: uppercase;
 }
