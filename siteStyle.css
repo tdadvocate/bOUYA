@@ -51,6 +51,7 @@ p {
   background-color: #117864;
 }
 
+/* Image style for at least hardware sections */
 .imgCenter {
   display: block;
   margin-left: auto;
@@ -113,7 +114,6 @@ p {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-
 /* unvisited link */
 a:link {
   color: #148F77;
@@ -134,7 +134,6 @@ a:hover {
 a:active {
   color: #117864;
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -170,3 +169,10 @@ td:nth-child(odd) {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/* Title font specifically for the console pages for the time being */
+.textBoxTitleCons p {
+  padding-top: 2em;
+  font-size: 24;
+  text-transform: uppercase;
+ }
