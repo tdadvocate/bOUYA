@@ -163,6 +163,7 @@ a:active {
 /* Table Styling */
 table, td {
   font-family: futura;
+  color: white;
 }
 
 td:nth-child(odd) {
